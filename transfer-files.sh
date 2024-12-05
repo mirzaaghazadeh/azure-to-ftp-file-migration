@@ -7,7 +7,7 @@ csv_file="file_data.csv"
 ftp_user="username"
 ftp_pass="password"
 ftp_host="ip-or-domain"
-ftp_remote_prefix=""  # The prefix for the remote directory , it can be empty
+ftp_remote_prefix=""  # The prefix for the remote directory , It can be empty
 
 # Check if the file exists
 if [[ ! -f "$csv_file" ]]; then
